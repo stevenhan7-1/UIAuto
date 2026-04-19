@@ -24,7 +24,7 @@ import { LoginPage } from '../pages/login-page';
  * 测试账号配置
  */
 export const testAccount = {
-  phone: '19113235970',
+  phone: '',
 };
 
 /**
