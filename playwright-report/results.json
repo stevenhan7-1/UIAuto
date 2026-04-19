@@ -1,0 +1,339 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Administrator\\Desktop\\UIAuto\\playwright.config.ts",
+    "rootDir": "C:/Users/Administrator/Desktop/UIAuto/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Administrator/Desktop/UIAuto/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Administrator/Desktop/UIAuto/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 600000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "create-task.spec.ts",
+      "file": "create-task.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "创建-删除班组任务单",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 600000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 99188,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "=== 开始创建-删除班组任务单完整流程测试 ===\n\n"
+                    },
+                    {
+                      "text": "【步骤 1/13】执行自动登录...\n"
+                    },
+                    {
+                      "text": "\n========================================\n"
+                    },
+                    {
+                      "text": "       自动登录流程开始\n"
+                    },
+                    {
+                      "text": "========================================\n\n"
+                    },
+                    {
+                      "text": "账号: 19113235970\n"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "text": "[步骤 1/6] 登录页已打开\n"
+                    },
+                    {
+                      "text": "[步骤 2/6] 已切换到短信登录\n"
+                    },
+                    {
+                      "text": "[步骤 3/6] 手机号已输入\n"
+                    },
+                    {
+                      "text": "[步骤 4/6] 已点击获取验证码\n"
+                    },
+                    {
+                      "text": "  检测滑块验证...\n"
+                    },
+                    {
+                      "text": "  无需滑块验证\n"
+                    },
+                    {
+                      "text": "[步骤 5/6] 滑块验证已完成\n"
+                    },
+                    {
+                      "text": "[步骤 6/6] 验证码处理...\n\n"
+                    },
+                    {
+                      "text": "  等待验证码回显...\n\n"
+                    },
+                    {
+                      "text": "  ✓ 检测到验证码已回显: 666666\n"
+                    },
+                    {
+                      "text": "  自动点击登录...\n\n"
+                    },
+                    {
+                      "text": "========================================\n"
+                    },
+                    {
+                      "text": "       登录流程完成\n"
+                    },
+                    {
+                      "text": "========================================\n\n"
+                    },
+                    {
+                      "text": "当前页面: https://cms.axzo.cn/home/subPage/pro?timestamp=1776606610048\n\n"
+                    },
+                    {
+                      "text": "等待登录成功...\n"
+                    },
+                    {
+                      "text": "✓ 登录成功\n\n"
+                    },
+                    {
+                      "text": "【步骤 2/13】进入任务菜单...\n"
+                    },
+                    {
+                      "text": "✓ 已进入任务列表页面\n\n"
+                    },
+                    {
+                      "text": "【步骤 3/13】点击\"创建任务单\"按钮...\n"
+                    },
+                    {
+                      "text": "✓ 创建任务单按钮已点击\n\n"
+                    },
+                    {
+                      "text": "【步骤 4/13】选择\"直接创建任务单手动填写任务信息\"...\n"
+                    },
+                    {
+                      "text": "✓ 已选择直接创建方式\n\n"
+                    },
+                    {
+                      "text": "【步骤 5/13】选择工程...\n"
+                    },
+                    {
+                      "text": "✓ 工程已选择: 一智大厦项目\n\n"
+                    },
+                    {
+                      "text": "【步骤 6/13】选择施工区域...\n"
+                    },
+                    {
+                      "text": "✓ 施工区域已选择: 5层\n\n"
+                    },
+                    {
+                      "text": "【步骤 7/13】选择履约对象...\n"
+                    },
+                    {
+                      "text": "✓ 履约对象已选择: 邓九洲\n\n"
+                    },
+                    {
+                      "text": "【步骤 8/13】选择施工任务...\n"
+                    },
+                    {
+                      "text": "  搜索结果数量: 32\n"
+                    },
+                    {
+                      "text": "✓ 施工任务已选择: 试件制作\n\n"
+                    },
+                    {
+                      "text": "【步骤 9/13】设置计划工期...\n"
+                    },
+                    {
+                      "text": "✓ ���划工期已设置: 22 - 24\n\n"
+                    },
+                    {
+                      "text": "【步骤 10/13】设置计件信息...\n"
+                    },
+                    {
+                      "text": "✓ 单价已设置: 300\n"
+                    },
+                    {
+                      "text": "✓ 最低产量要求已设置: 1\n"
+                    },
+                    {
+                      "text": "✓ 预估工程量已设置: 100\n\n"
+                    },
+                    {
+                      "text": "【步骤 11/13】保存任务单...\n"
+                    },
+                    {
+                      "text": "  保存按钮已点击，等待接口响应...\n"
+                    },
+                    {
+                      "text": "✓ 接口响应完成\n\n"
+                    },
+                    {
+                      "text": "【步骤 12/13】检查并处理提示框...\n"
+                    },
+                    {
+                      "text": "  ✓ 已确认表单提示，等待跳转到详情页...\n"
+                    },
+                    {
+                      "text": "【步骤 13/13】验证任务创建成功...\n"
+                    },
+                    {
+                      "text": "  等待跳转到详情页...\n"
+                    },
+                    {
+                      "text": "  ✓ 已跳转到详情页: https://cms.axzo.cn/netConstruction/v3/dispatch-details?taskNo=3000000000607375\n"
+                    },
+                    {
+                      "text": "  最终页面: https://cms.axzo.cn/netConstruction/v3/dispatch-details?taskNo=3000000000607375\n"
+                    },
+                    {
+                      "text": "✓ 任务创建成功，已跳转到详情页\n\n"
+                    },
+                    {
+                      "text": "  等待页面加载完成...\n"
+                    },
+                    {
+                      "text": "✓ 页面加载完成\n\n"
+                    },
+                    {
+                      "text": "  页面标题: 安心筑企业服务平台\n"
+                    },
+                    {
+                      "text": "【步骤 14】删除任务单...\n"
+                    },
+                    {
+                      "text": "  已点击更多操作按钮\n"
+                    },
+                    {
+                      "text": "  ✓ 已点击删除按钮\n"
+                    },
+                    {
+                      "text": "  ✓ 已确认删除\n"
+                    },
+                    {
+                      "text": "  等待返回任务列表...\n"
+                    },
+                    {
+                      "text": "  当前页面: https://cms.axzo.cn/netConstruction/v3/list\n"
+                    },
+                    {
+                      "text": "✓ 删除成功，已返回任务列表页\n\n"
+                    },
+                    {
+                      "text": "✓ 截图已保存: tests/snapshots/创建-删除班组任务单-202604191351.png\n\n"
+                    },
+                    {
+                      "text": "========================================\n"
+                    },
+                    {
+                      "text": "       创建-删除班组任务单流程完成\n"
+                    },
+                    {
+                      "text": "========================================\n\n"
+                    },
+                    {
+                      "text": "========================================\n"
+                    },
+                    {
+                      "text": "正在关闭浏览器...\n"
+                    },
+                    {
+                      "text": "========================================\n\n"
+                    },
+                    {
+                      "text": "浏览器已关闭\n\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-19T13:49:53.927Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8a3ed072bb8367be9956-a619244485efe14dae2c",
+          "file": "create-task.spec.ts",
+          "line": 24,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-19T13:49:52.772Z",
+    "duration": 100662.893,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

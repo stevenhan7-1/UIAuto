@@ -1,0 +1,399 @@
+{
+  "stats": {
+    "total": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "interrupted": 0
+  },
+  "startTime": "2026-04-19T12:53:51.939Z",
+  "endTime": "2026-04-20T20:46:06.408Z",
+  "tests": [
+    {
+      "file": "create-task.spec.ts",
+      "line": 0,
+      "result": {
+        "status": "passed",
+        "errors": [],
+        "steps": [
+          {
+            "title": "=== 开始创建-删除班组任务单完整流程测试 ===\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 1/13】执行自动登录...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "\n========================================\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "       自动登录流程开始\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "账号: 19113235970\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "[步骤 1/6] 登录页已打开\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "[步骤 2/6] 已切换到短信登录\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "[步骤 3/6] 手机号已输入\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "[步骤 4/6] 已点击获取验证码\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  检测滑块验证...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  无需滑块验证\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "[步骤 5/6] 滑块验证已完成\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "[步骤 6/6] 验证码处理...\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  等待验证码回显...\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  ✓ 检测到验证码已回显: 666666\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  自动点击登录...\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "       登录流程完成\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "当前页面: https://cms.axzo.cn/login\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "等待登录成功...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 登录成功\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 2/13】进入任务菜单...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 已进入任务列表页面\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 3/13】点击\"创建任务单\"按钮...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 创建任务单按钮已点击\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 4/13】选择\"直接创建任务单手动填写任务信息\"...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 已选择直接创建方式\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 5/13】选择工程...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 工程已选择: 一智大厦项目\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 6/13】选择施工区域...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 施工区域已选择: 5层\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 7/13】选择履约对象...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 履约对象已选择: 邓九洲\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 8/13】选择施工任务...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  搜索结果数量: 32\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 施工任务已选择: 试件制作\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 9/13】设置计划工期...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ ���划工期已设置: 22 - 24\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 10/13】设置计件信息...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 单价已设置: 300\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 最低产量要求已设置: 1\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 预估工程量已设置: 100\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 11/13】保存任务单...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  保存按钮已点击，等待接口响应...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 接口响应完成\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 12/13】检查并处理提示框...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  ✓ 已确认表单提示，等待跳转到详情页...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 13/13】验证任务创建成功...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  等待跳转到详情页...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  ✓ 已跳转到详情页: https://cms.axzo.cn/netConstruction/v3/dispatch-details?taskNo=3000000000613422\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  最终页面: https://cms.axzo.cn/netConstruction/v3/dispatch-details?taskNo=3000000000613422\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 任务创建成功，已跳转到详情页\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  等待页面加载完成...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 页面加载完成\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  页面标题: 安心筑企业服务平台\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "【步骤 14】删除任务单...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  已点击更多操作按钮\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  ✓ 已点击删除按钮\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  ✓ 已确认删除\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  等待返回任务列表...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "  当前页面: https://cms.axzo.cn/netConstruction/v3/list\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 删除成功，已返回任务列表页\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ 截图已保存: tests/snapshots/创建-删除班组任务单-202604191255.png\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "✓ HTML测试报告已生成: tests/reports/创建-删除班组任务单-202604191255/index.html\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "\n提示: 直接打开HTML报告查看\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "       创建-删除班组任务单流程完成\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "正在关闭浏览器...\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "========================================\n\n",
+            "category": "log",
+            "duration": 0
+          },
+          {
+            "title": "浏览器已关闭\n\n",
+            "category": "log",
+            "duration": 0
+          }
+        ],
+        "duration": 112636
+      }
+    }
+  ]
+}
